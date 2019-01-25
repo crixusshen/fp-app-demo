@@ -2,31 +2,6 @@
 
 基于FastProgram实现的APP首页示例（内部Demo，因此并不会随着基础库进行维护，请注意）       
 
-#### 目录结构
-
-```shell
-├── res
-│    └── images                   # 图片资源(可选)
-├── src
-│    └── components               # 组件脚本(可选)
-│    │       ├── MyComponent.vue
-│    │       └── ...
-│    └── entry                    # 入口脚本(必需)
-│          └── index.js
-│    └── pages                    # 页面脚本(必需)
-│    │     └── index
-│    │     │     └── page.vue    
-│    │     └── ...
-│    └── api                      # 服务调用(可选)
-│    │    └── api.js 
-│    │           └── ... 
-│    └── store                    # 数据状态模块化（可选，建议必需）
-│          └── modules
-│                 └── module1.js  # 业务模块一
-│                 └── ...
-└── app.json                      # 配置文件(必需)
-```
-
 #### 浏览器模式
 
 ```javascript
