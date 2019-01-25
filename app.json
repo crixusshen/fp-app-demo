@@ -1,0 +1,41 @@
+{
+  "name": "fp-demo",
+  "version": {
+    "business": "1.0.0",
+    "base": "1.0.0"
+  },
+  "src": "./src",
+  "res": "./res",
+  "target": "./dist",
+  "pages": [
+    {
+      "name": "index",
+      "path": "/entry/index"
+    },
+    {
+      "name": "mine",
+      "path": "/entry/mine"
+    },
+    {
+      "name": "calendar",
+      "path": "/entry/calendar"
+    }
+  ],
+  "index": "index",
+  "tabbar": {
+    "items": [
+      {
+        "path": "index",
+        "unselectedIcon": "/images/tab-home.png",
+        "selectedIcon": "/images/tab-home-selected.png",
+        "title": "FastProgram"
+      },
+      {
+        "path": "mine",
+        "unselectedIcon": "/images/tab-home.png",
+        "selectedIcon": "/images/tab-home-selected.png",
+        "title": "我的"
+      }
+    ]
+  }
+}
